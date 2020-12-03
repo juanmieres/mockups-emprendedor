@@ -200,7 +200,7 @@
                                                     </button>
                                                     <br>
                                                     <button type="button" class="btn btn-sm btn-primary w-lg">
-                                                        <i class="bx bx-loader-alt bx-spin font-size-14 align-middle"></i>
+                                                        <i class="fas fa-sync-alt"></i>
                                                         Sincronizar
                                                     </button>
                                                 </div>
@@ -224,8 +224,8 @@
                                             <div class="dropdown-menu dropdown-menu-right">
                                               <a class="dropdown-item" href="conciliar-nueva.html">Conciliación</a>
                                               <a class="dropdown-item" href="reglas-nueva.html">Reglas</a>
-                                              <a class="dropdown-item" href="#modal-transferencias" data-toggle="modal">Transferencias</a>
-                                              <a class="dropdown-item" href="#modal-cheques" data-toggle="modal">Cheques</a>
+                                              <a class="dropdown-item" href="#m-transferencia" data-toggle="modal">Transferencia</a>
+                                              <a class="dropdown-item" href="#m-cheque" data-toggle="modal">Cheque</a>
                                             </div>
                                         </div>
                                         <div>
@@ -240,17 +240,17 @@
                                     </div>
                                     <div class="card-body border-top">
                                         <div class="row">
-                                            <div class="col-sm-6">
+                                            <div class="col-sm-7">
                                                 <div>
                                                     <p class="font-weight-medium mb-2">Cuenta Corriente : <span class="text-primary font-20">$1.613.039</span></p>
                                                     <p class="font-weight-medium mb-2">Tarjeta de Crédito : <span class="text-primary font-16">$1.613.039</span></p>
                                                     <p class="font-weight-medium mb-2">Linea de Crédito : <span class="text-primary font-16">$5.000.000</span></p>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-6">
+                                            <div class="col-sm-5">
                                                 <div class="mt-4 mt-sm-0 float-right">
                                                     <p class="font-weight-medium mb-2 text-right">Conciliación</p>
-                                                    <a href="conciliar-nueva.html" class="btn btn-sm btn-warning">5 Movimientos Pendientes</a>
+                                                    <a href="conciliar-nueva.html" class="btn btn-sm btn-warning">5 Movimientos</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -272,8 +272,8 @@
                                             <div class="dropdown-menu dropdown-menu-right">
                                               <a class="dropdown-item" href="conciliar-nueva.html">Conciliación</a>
                                               <a class="dropdown-item" href="reglas-nueva.html">Reglas</a>
-                                              <a class="dropdown-item" href="#modal-transferencias" data-toggle="modal">Transferencias</a>
-                                              <a class="dropdown-item" href="#modal-cheques" data-toggle="modal">Cheques</a>
+                                              <a class="dropdown-item" href="#m-transferencia" data-toggle="modal">Transferencia</a>
+                                              <a class="dropdown-item" href="#m-cheque" data-toggle="modal">Cheque</a>
                                             </div>
                                         </div>
                                         <div>
@@ -289,14 +289,14 @@
 
                                     <div class="card-body border-top">
                                         <div class="row">
-                                            <div class="col-sm-6">
+                                            <div class="col-sm-7">
                                                 <div>
                                                     <p class="font-weight-medium mb-2">Cuenta Corriente : <span class="text-primary font-20">$2.971.093</span></p>
                                                     <p class="font-weight-medium mb-2">Tarjeta de Crédito : <span class="text-primary font-16">$613.000</span></p>
                                                     <p class="font-weight-medium mb-2">Linea de Crédito : <span class="text-primary font-16">$900.000</span></p>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-6">
+                                            <div class="col-sm-5">
                                                 <div class="mt-4 mt-sm-0 float-right">
                                                     <p class="font-weight-medium mb-2 text-right">Conciliación</p>
                                                     <a href="javascript:;" class="btn btn-sm btn-success">0 Movimientos</a>
@@ -315,7 +315,7 @@
                     </div>
                 </div>
 
-                <div class="modal fade exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -401,7 +401,7 @@
                     </div>
                 </div>
 
-                <div class="modal fade" tabindex="-1" id="modal-bancos" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" tabindex="-1" id="modal-bancos" role="dialog" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -426,7 +426,7 @@
                                         </div>
                                         <div class="form-group col-md-6">
                                             <label>Contraseña</label>
-                                            <input class="form-control form-control-sm" type='password' name='' id=''/>
+                                            <input class="form-control form-control-sm" type='password'/>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -441,20 +441,20 @@
                                         </div>
                                         <div class="form-group col-md-6">
                                             <label>Fecha Inicio</label>
-                                            <input class="form-control form-control-sm" type='date' name='' id=''/>
+                                            <input class="form-control form-control-sm" type='date'/>
                                         </div>
                                     </div>
                                 </form>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">Aceptar</button>
+                                <button type="button" class="btn btn-sm btn-light" data-dismiss="modal">Cancelar</button>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="modal fade" tabindex="-1" id="modal-transferencias" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" tabindex="-1" id="m-transferencia" role="dialog" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -493,24 +493,24 @@
                                     <div class="row">
                                         <div class="form-group col-md-6">
                                             <label>Monto</label>
-                                            <input class="form-control form-control-sm text-right" value="1000000" type='number' name='' id=''/>
+                                            <input class="form-control form-control-sm text-right" placeholder="1000000" type='number'/>
                                         </div>
                                         <div class="form-group col-md-6">
                                             <label>Comentario</label>
-                                            <input class="form-control form-control-sm" value="transferencia prueba" type='text' name='' id=''/>
+                                            <input class="form-control form-control-sm" placeholder="transferencia prueba" type='text'/>
                                         </div>
                                     </div>
                                 </form>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">Aceptar</button>
+                                <button type="button" class="btn btn-sm btn-light" data-dismiss="modal">Cancelar</button>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="modal fade" tabindex="-1" id="modal-cheques" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" tabindex="-1" id="m-cheque" role="dialog" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -520,52 +520,50 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <form action="#">
+                                <form>
                                     <div class="row">
                                         <div class="form-group col-md-6">
-                                            <label>Desde Banco</label>
+                                            <label>Nº de Cheque:</label>
+                                            <input class="form-control form-control-sm text-right" placeholder="123456" type='number'/>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label>Documento</label>
                                             <select class="form-control form-control-sm">
                                                 <option>Seleccionar</option>
-                                                <option selected>Chile</option>
-                                                <option>Santander</option>
-                                                <option>BCI</option>
-                                                <option>Scotiabank - BBVA</option>
-                                                <option>Estado</option>
+                                                <option>Documento 1</option>
+                                                <option>Documento 2</option>
+                                                <option>Documento 3</option>
+                                                <option>Documento 4</option>
                                             </select>
                                         </div>
                                         <div class="form-group col-md-6">
-                                            <label>Hacia Banco</label>
-                                            <select class="form-control form-control-sm">
-                                                <option>Seleccionar</option>
-                                                <option>Chile</option>
-                                                <option>Santander</option>
-                                                <option>BCI</option>
-                                                <option selected>Scotiabank - BBVA</option>
-                                                <option>Estado</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="form-group col-md-6">
-                                            <label>Número de Cheque</label>
-                                            <input class="form-control form-control-sm text-right" value="123456" type='number' name='' id=''/>
+                                            <label>Rut:</label>
+                                            <input class="form-control form-control-sm" placeholder="" type='text'/>
                                         </div>
                                         <div class="form-group col-md-6">
-                                            <label>Monto</label>
-                                            <input class="form-control form-control-sm text-right" value="1000000" type='number' name='' id=''/>
+                                            <label>Girado a:</label>
+                                            <input class="form-control form-control-sm" placeholder="" type='text'/>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label>Fecha:</label>
+                                            <input class="form-control form-control-sm" type='date'/>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label>Monto:</label>
+                                            <input class="form-control form-control-sm text-right" placeholder="$100.000" type='number'/>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="form-group col-sm-12">
                                             <label>Comentario:</label>
-                                            <textarea name="comentario" cols="5" rows="3" class="form-control form-control-sm">Comentario de Cheque</textarea>
+                                            <textarea name="comentario" rows="3" placeholder="Comentario de Cheque" class="form-control form-control-sm"></textarea>
                                         </div>
                                     </div>
                                 </form>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">Aceptar</button>
+                                <button type="button" class="btn btn-sm btn-light" data-dismiss="modal">Cancelar</button>
                             </div>
                         </div>
                     </div>

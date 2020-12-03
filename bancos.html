@@ -189,7 +189,7 @@
                 
                                             <div class="col-lg-4 d-none d-lg-block">
                                                 <div class="clearfix mt-4 mt-lg-0 float-right">
-                                                    <button type="button" class="btn btn-sm btn-primary mb-2 w-lg">
+                                                    <button type="button" class="btn btn-sm btn-primary mb-2 w-lg" data-toggle="modal" data-target="#modal-bancos">
                                                         <i class="fas fa-plus"></i>
                                                         Banco
                                                     </button>
@@ -237,7 +237,7 @@
                                             <div class="col-sm-6">
                                                 <div>
                                                     <p class="font-weight-medium mb-2">Cuenta Corriente : <span class="text-primary font-20">$1.613.039</span></p>
-                                                    <p class="font-weight-medium mb-2">Tarjet de Crédito : <span class="text-primary font-16">$1.613.039</span></p>
+                                                    <p class="font-weight-medium mb-2">Tarjeta de Crédito : <span class="text-primary font-16">$1.613.039</span></p>
                                                     <p class="font-weight-medium mb-2">Linea de Crédito : <span class="text-primary font-16">$5.000.000</span></p>
                                                 </div>
                                             </div>
@@ -285,7 +285,7 @@
                                             <div class="col-sm-6">
                                                 <div>
                                                     <p class="font-weight-medium mb-2">Cuenta Corriente : <span class="text-primary font-20">$2.971.093</span></p>
-                                                    <p class="font-weight-medium mb-2">Tarjet de Crédito : <span class="text-primary font-16">$613.000</span></p>
+                                                    <p class="font-weight-medium mb-2">Tarjeta de Crédito : <span class="text-primary font-16">$613.000</span></p>
                                                     <p class="font-weight-medium mb-2">Linea de Crédito : <span class="text-primary font-16">$900.000</span></p>
                                                 </div>
                                             </div>
@@ -389,6 +389,59 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" tabindex="-1" id="modal-bancos" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Nuevo Banco</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <label>Bancos</label>
+                                            <select class="form-control form-control-sm">
+                                                <option>Seleccionar</option>
+                                                <option>Chile</option>
+                                                <option>Santander</option>
+                                                <option>BCI</option>
+                                                <option selected>Scotiabank - BBVA</option>
+                                                <option>Estado</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label>Contraseña</label>
+                                            <input class="form-control form-control-sm" type='password' name='' id=''/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <label>Moneda</label>
+                                            <select class="form-control form-control-sm">
+                                                <option>Seleccionar</option>
+                                                <option selected>CLP</option>
+                                                <option>Dolar</option>
+                                                <option>Euro</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label>Fecha Inicio</label>
+                                            <input class="form-control form-control-sm" type='date' name='' id=''/>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
                             </div>
                         </div>
                     </div>

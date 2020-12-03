@@ -1,8 +1,11 @@
 body[data-topbar=dark] #page-topbar {
-    background-color: #293054;  
-    /* #002c5a; */
+    background-color: #293054;
 }
 
 .card-header {
     background-color: #efeff1;
+}
+
+textarea {
+    resize: none;
 }

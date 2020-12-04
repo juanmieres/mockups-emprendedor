@@ -98,18 +98,29 @@
                         <div class="collapse navbar-collapse" id="topnav-menu-content">
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown show">
+                                    <a class="nav-link dropdown-toggle arrow-nones" href="empresas.html" role="button"  aria-haspopup="true" aria-expanded="true">
+                                        <i class="bx bx-buildings mr-2"></i>
+                                        <span key="t-dashboards">Empresas</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown show">
                                     <a class="nav-link dropdown-toggle arrow-nones" href="dashboard.html" role="button"  aria-haspopup="true" aria-expanded="true">
-                                        <i class="bx bx-home-circle mr-2"></i>
-                                        <span key="t-dashboards">Dashboards</span>
+                                        <i class="bx bxs-dashboard mr-2"></i>
+                                        <span key="t-dashboards">Dashboard</span>
                                     </a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle arrow-none" href="bancos.html" role="button" aria-haspopup="true" aria-expanded="false">
-                                        <i class="bx bxs-bank mr-2"></i><span key="t-components">Bancos</span>
+                                    <a class="nav-link dropdown-toggle arrow-none" href="javascript:;" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="bx bx-customize mr-2"></i><span key="t-layouts">Configuración</span> <div class="arrow-down"></div>
                                     </a>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="topnav-layout">
+                                        <a href="bancos.html" class="dropdown-item" key="t-vertical">Bancos</a>
+                                        <a href="compras.html" class="dropdown-item" key="t-horizontal">Compras</a>
+                                        <a href="ventas.html" class="dropdown-item" key="t-horizontal">Ventas</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle arrow-none" href="javascript:;" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle arrow-none" href="reportes.html" role="button" aria-haspopup="true" aria-expanded="false">
                                         <i class="bx bx-file mr-2"></i><span key="t-components">Reportes</span>
                                     </a>
                                 </li>
@@ -118,9 +129,9 @@
                                         <i class="bx bx-cog mr-2"></i><span key="t-layouts">Configuración</span> <div class="arrow-down"></div>
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="topnav-layout">
-                                        <a href="reglas-lista.html" class="dropdown-item" key="t-vertical">Reglas Conciliación</a>
-                                        <a href="categorizar-lista.html" class="dropdown-item" key="t-horizontal">Categorización</a>
-                                        <a href="contactos-lista.html" class="dropdown-item" key="t-horizontal">Contactos</a>
+                                        <a href="reglas.html" class="dropdown-item" key="t-vertical">Reglas</a>
+                                        <a href="conceptos.html" class="dropdown-item" key="t-horizontal">Conceptos</a>
+                                        <a href="contactos.html" class="dropdown-item" key="t-horizontal">Contactos</a>
                                     </div>
                                 </li>
                             </ul>
@@ -153,14 +164,11 @@
                                         <div class="row">
                                             <div class="col-lg-4">
                                                 <div class="media">
-                                                    <div class="mr-3">
-                                                        <img src="assets/images/users/avatar-1.jpg" alt="" class="avatar-md rounded-circle img-thumbnail">
-                                                    </div>
                                                     <div class="media-body align-self-center">
                                                         <div class="text-muted">
-                                                            <p class="mb-2">Welcome to skote dashboard</p>
-                                                            <h5 class="mb-1">Henry wells</h5>
-                                                            <p class="mb-0">UI / UX Designer</p>
+                                                            <p class="mb-2">Resumen</p>
+                                                            <h5 class="mb-1">Saldo Total</h5>
+                                                            <p class="mb-0">$29.000.000</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -169,23 +177,22 @@
                                             <div class="col-lg-4 align-self-center">
                                                 <div class="text-lg-center mt-4 mt-lg-0">
                                                     <div class="row">
-                                                        <div class="col-4">
+                                                        <div class="col-3">
                                                             <div>
-                                                                <p class="text-muted text-truncate mb-2">Total Projects</p>
-                                                                <h5 class="mb-0">48</h5>
+                                                                <p class="text-muted text-truncate mb-2">Bancos</p>
+                                                                <h5 class="mb-0">2</h5>
                                                             </div>
                                                         </div>
-                                                        <div class="col-4">
+                                                        <div class="col-5">
                                                             <div>
-                                                                <p class="text-muted text-truncate mb-2">Projects</p>
-                                                                <h5 class="mb-0">40</h5>
+                                                                <p class="text-muted text-truncate mb-2">Movimientos pendientes</p>
+                                                                <h5 class="mb-0">5</h5>
                                                             </div>
                                                         </div>
                                                         <div class="col-4">
                                                             <div>
                                                                 <p class="text-muted text-truncate mb-2">Clients</p>
                                                                 <h5 class="mb-0">18</h5>
-                                                                
                                                             </div>
                                                         </div>
                                                     </div>
@@ -222,7 +229,7 @@
                                             </a>
                                           
                                             <div class="dropdown-menu dropdown-menu-right">
-                                              <a class="dropdown-item" href="conciliar-nueva.html">Conciliación</a>
+                                              <a class="dropdown-item" href="bancos-opciones.html">Conciliación</a>
                                               <a class="dropdown-item" href="reglas-nueva.html">Reglas</a>
                                               <a class="dropdown-item" href="#m-transferencia" data-toggle="modal">Transferencia</a>
                                               <a class="dropdown-item" href="#m-cheque" data-toggle="modal">Cheque</a>
@@ -230,32 +237,67 @@
                                         </div>
                                         <div>
                                             <div class="mb-2 mr-3">
-                                                <img src="assets/images/uwigo/logo-banco-1.png" class="img-fluid" width="150">
+                                                <img src="assets/images/uwigo/logo-banco-1.png" class="img-fluid" width="125">
                                             </div>
+                                            <a href="bancos-opciones.html" class="btn btn-sm btn-warning btn-label mt-2 float-right">
+                                                <i class="fas fa-info-circle font-size-12 label-icon"></i>
+                                                5 Movimientos
+                                            </a>
                                             <div>
                                                 <p class="text-muted mb-0">Nº: #1025720234</p>
                                                 <p class="text-muted mb-0">Actualizado: 01/12/2020 20:00</p>
                                             </div>
+                                            
                                         </div>
                                     </div>
                                     <div class="card-body border-top">
                                         <div class="row">
-                                            <div class="col-sm-7">
+                                            <div class="col-sm-12">
                                                 <div>
-                                                    <p class="font-weight-medium mb-2">Cuenta Corriente : <span class="text-primary font-20">$1.613.039</span></p>
-                                                    <p class="font-weight-medium mb-2">Tarjeta de Crédito : <span class="text-primary font-16">$1.613.039</span></p>
-                                                    <p class="font-weight-medium mb-2">Linea de Crédito : <span class="text-primary font-16">$5.000.000</span></p>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-5">
-                                                <div class="mt-4 mt-sm-0 float-right">
-                                                    <p class="font-weight-medium mb-2 text-right">Conciliación</p>
-                                                    <a href="conciliar-nueva.html" class="btn btn-sm btn-warning">5 Movimientos</a>
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <p class="font-weight-medium mb-0">Cuenta Corriente</p>
+                                                            <p class="text-muted font-size-10 mb-3">1025720234</p>
+                                                        </div>
+                                                        <div class="col-md-4 text-center">
+                                                            <p class="mb-0 text-muted">Saldo disponible</p>
+                                                            <p class="text-primary font-20 mb-3">$20.000.0000</p>
+                                                        </div>
+                                                        <div class="col-md-4 text-center">
+                                                            <p class="mb-0 text-muted">Saldo contable</p>
+                                                            <p class="text-primary font-20 mb-3">$0.000.0000</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <p class="font-weight-medium mb-0">Linea de Crédito</p>
+                                                            <p class="text-muted font-size-10 mb-3">1025720234</p>
+                                                        </div>
+                                                        <div class="col-md-4 text-center">
+                                                            <p class="mb-0 text-muted">Saldo disponible</p>
+                                                            <p class="text-primary font-20 mb-0">$2.000.000</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <p class="font-weight-medium mb-0">Tarjeta de Crédito</p>
+                                                            <p class="text-muted font-size-10 mb-3">1025720234</p>
+                                                        </div>
+                                                        <div class="col-md-4 text-center">
+                                                            <p class="mb-0 text-muted">Cupo disponible</p>
+                                                            <p class="text-primary font-20 mb-3">$1.005.987</p>
+                                                        </div>
+                                                        <div class="col-md-4 text-center">
+                                                            <p class="mb-0 text-muted ">Cupo disponible</p>
+                                                            <p class="text-primary font-20 mb-3">UDS 4.500</p>
+                                                        </div>
+                                                    </div>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card-footer bg-transparent border-top">
+                                    <div class="card-footer bg-transparent border-top p-0">
                                         <div id="chart-1"></div>
                                     </div>
                                 </div>
@@ -268,9 +310,8 @@
                                             <a class="text-muted dropdown-toggle" href="dashboard-crypto.html#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <i class="mdi mdi-dots-horizontal font-size-18"></i>
                                             </a>
-                                          
                                             <div class="dropdown-menu dropdown-menu-right">
-                                              <a class="dropdown-item" href="conciliar-nueva.html">Conciliación</a>
+                                              <a class="dropdown-item" href="bancos-opciones.html">Conciliación</a>
                                               <a class="dropdown-item" href="reglas-nueva.html">Reglas</a>
                                               <a class="dropdown-item" href="#m-transferencia" data-toggle="modal">Transferencia</a>
                                               <a class="dropdown-item" href="#m-cheque" data-toggle="modal">Cheque</a>
@@ -278,34 +319,66 @@
                                         </div>
                                         <div>
                                             <div class="mb-2 mr-3">
-                                                <img src="assets/images/uwigo/logo-banco-2.png" class="img-fluid" width="150">
+                                                <img src="assets/images/uwigo/logo-banco-2.png" class="img-fluid" width="125">
                                             </div>
+                                            <a href="bancos-opciones.html" class="btn btn-sm btn-success btn-label mt-2 float-right">
+                                                <i class="bx bx-check-circle font-size-12 label-icon"></i>
+                                                0 Movimientos
+                                            </a>
                                             <div>
                                                 <p class="text-muted mb-0">Nº: #20245474</p>
                                                 <p class="text-muted mb-0">Actualizado: 21/12/2020 08:59</p>
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="card-body border-top">
                                         <div class="row">
-                                            <div class="col-sm-7">
+                                            <div class="col-sm-12">
                                                 <div>
-                                                    <p class="font-weight-medium mb-2">Cuenta Corriente : <span class="text-primary font-20">$2.971.093</span></p>
-                                                    <p class="font-weight-medium mb-2">Tarjeta de Crédito : <span class="text-primary font-16">$613.000</span></p>
-                                                    <p class="font-weight-medium mb-2">Linea de Crédito : <span class="text-primary font-16">$900.000</span></p>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-5">
-                                                <div class="mt-4 mt-sm-0 float-right">
-                                                    <p class="font-weight-medium mb-2 text-right">Conciliación</p>
-                                                    <a href="javascript:;" class="btn btn-sm btn-success">0 Movimientos</a>
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <p class="font-weight-medium mb-0">Cuenta Corriente</p>
+                                                            <p class="text-muted font-size-10 mb-3">35624888</p>
+                                                        </div>
+                                                        <div class="col-md-4 text-center">
+                                                            <p class="mb-0 text-muted">Saldo disponible</p>
+                                                            <p class="text-primary font-20 mb-3">$2.000.0000</p>
+                                                        </div>
+                                                        <div class="col-md-4 text-center">
+                                                            <p class="mb-0 text-muted">Saldo contable</p>
+                                                            <p class="text-primary font-20 mb-3">$2.000.0000</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <p class="font-weight-medium mb-0">Linea de Crédito</p>
+                                                            <p class="text-muted font-size-10 mb-3">334568900</p>
+                                                        </div>
+                                                        <div class="col-md-4 text-center">
+                                                            <p class="mb-0 text-muted">Saldo disponible</p>
+                                                            <p class="text-primary font-20 mb-0">$2.000.000</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <p class="font-weight-medium mb-0">Tarjeta de Crédito</p>
+                                                            <p class="text-muted font-size-10 mb-3">102123357</p>
+                                                        </div>
+                                                        <div class="col-md-4 text-center">
+                                                            <p class="mb-0 text-muted">Cupo disponible</p>
+                                                            <p class="text-primary font-20 mb-3">$2.021.231</p>
+                                                        </div>
+                                                        <div class="col-md-4 text-center">
+                                                            <p class="mb-0 text-muted ">Cupo disponible</p>
+                                                            <p class="text-primary font-20 mb-3">UDS 6.000</p>
+                                                        </div>
+                                                    </div>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
-                                    <div class="card-footer bg-transparent border-top">
+                                    <div class="card-footer bg-transparent border-top p-0">
                                         <div id="chart-2"></div>
                                     </div>
                                 </div>
@@ -604,7 +677,7 @@
                     data: [3101000, 4001000, 2801000, 5101000, 4200100, 1090100, 1001000]
                 }],
                 chart: {
-                    height: 150,
+                    height: 125,
                     type: 'area',
                     zoom: {
                         enabled: false
@@ -640,7 +713,7 @@
                     data: [39871000, 409701000, 308032000, 251011000, 344200100, 209012100, 200221000]
                 }],
                 chart: {
-                    height: 150,
+                    height: 125,
                     type: 'area',
                     zoom: {
                         enabled: false

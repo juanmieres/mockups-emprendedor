@@ -189,30 +189,6 @@
                                 <div class="tab-content text-muted mt-4">
                                     <div class="tab-pane active" id="concialiacion" role="tabpanel">
 
-                                        <!-- <div class="row">
-                                            <div class="col">
-                                                <h5 class="mb-2">Revise las líneas de su banco</h5>
-                                                <hr class="mt-0">
-                                                <div class="table-responsive">
-                                                    <table class="table table-bordered mb-0">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td style="border:none;"></td>
-                                                                <td style="width: 20%; border:none;" class="pt-0 pb-0">Cargos</td>
-                                                                <td style="width: 20%; border:none;" class="pt-0 pb-0">Abonos</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1"></div>
-                                            <div class="col">
-                                                <h5 class="mb-2">...luego combine con su transacción en Uwigo</h5>
-                                                <hr class="mt-0">
-                                            </div>
-                
-                                        </div> -->
-                
                                         <div class="row">
                 
                                             <div class="col-lg-12">
@@ -291,49 +267,27 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="tab-pane" id="profile" role="tabpanel">
-                                                                        <form>
-                                                                            <div class="form-group">
-                                                                                <label for="formrow-firstname-input">Cliente/Proveedor</label>
-                                                                                <input type="text" class="form-control" id="formrow-firstname-input">
-                                                                            </div>
-                                
+
                                                                             <div class="row">
                                                                                 
                                                                                 <div class="col-md-6">
                                                                                     <div class="form-group">
-                                                                                        <label for="formrow-email-input">Descripción</label>
-                                                                                        <input type="email" class="form-control" id="formrow-email-input">
+                                                                                        <label>Cliente/Proveedor</label>
+                                                                                        <input type="email" class="form-control form-control-sm">
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="col-md-6">
                                                                                     <div class="form-group">
-                                                                                        <label for="formrow-password-input">Password</label>
-                                                                                        <input type="password" class="form-control" id="formrow-password-input">
+                                                                                        <label>R.U.T</label>
+                                                                                        <input type="password" class="form-control form-control-sm">
                                                                                     </div>
                                                                                 </div>
-                                                                            </div>
-                                
-                                                                            <div class="row">
-                                                                                <div class="col-lg-4">
-                                                                                    <div class="form-group">
-                                                                                        <label for="formrow-inputCity"></label>City</label>
-                                                                                        <input type="text" class="form-control" id="formrow-inputCity">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-lg-4">
-                                                                                    <div class="form-group">
-                                                                                        <label for="formrow-inputState">State</label>
-                                                                                        <select id="formrow-inputState" class="form-control">
-                                                                                            <option selected="">Choose...</option>
-                                                                                            <option>...</option>
-                                                                                        </select>
-                                                                                    </div>
-                                                                                </div>
+                                                                            
                                                                                 
                                                                                 <div class="col-lg-4">
                                                                                     <div class="form-group">
-                                                                                        <label for="formrow-inputZip">Zip</label>
-                                                                                        <input type="text" class="form-control" id="formrow-inputZip">
+                                                                                        <label>Descripción</label>
+                                                                                        <input type="text" class="form-control form-control-sm">
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -342,7 +296,7 @@
                                                                                 
                                                                                 <div class="custom-control custom-checkbox">
                                                                                     <input type="checkbox" class="custom-control-input" id="formrow-customCheck">
-                                                                                    <label class="custom-control-label" for="formrow-customCheck">Check me out</label>
+                                                                                    <label class="custom-control-label" for="formrow-customCheck">Anticipo </label>
                                                                                 </div>
                                                                             </div>
                                                                             <div>
@@ -390,18 +344,619 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <a href="reglas-nueva.html" class="btn btn-link float-right pr-0 pb-1 mt-2">
+                                                                    <i class="fas fa-plus"></i>
+                                                                    Crear regla
+                                                                </a>
+                                                                <div class="table-responsive">
+                                                                    <table class="table table-bordered mb-0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    <p class="mb-1">23 Agosto 2020</p>
+                                                                                    <p class="mb-1">Trasferencia Banco Santander</p>
+                                                                                    <p class="mb-1">Ref: CM855020</p>
+                                                                                </td>
+                                                                                <td style="width: 20%;">$100.000</td>
+                                                                                <td style="width: 20%;"></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-1 text-center mt-5">
+                                                                <a class="btn btn-primary waves-effect waves-light" href="ui-buttons.html#" role="button">ACEPTAR</a>
+                                                            </div>
+                                                            <div class="col">
+                                                                
+                                                                <ul class="nav nav-tabs" role="tablist">
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link active" data-toggle="tab" href="#home" role="tab">
+                                                                            <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
+                                                                            <span class="d-none d-sm-block">Match</span>    
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" data-toggle="tab" href="#profile" role="tab">
+                                                                            <span class="d-block d-sm-none"><i class="far fa-user"></i></span>
+                                                                            <span class="d-none d-sm-block">Crear</span>    
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" data-toggle="tab" href="#messages" role="tab">
+                                                                            <span class="d-block d-sm-none"><i class="far fa-envelope"></i></span>
+                                                                            <span class="d-none d-sm-block">Transferir</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
+                                                                            <span class="d-block d-sm-none"><i class="fas fa-cog"></i></span>
+                                                                            <span class="d-none d-sm-block">Comentar</span>    
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                
+                                                                <div class="tab-content p-0 pt-1 text-muted">
+                                                                    <div class="tab-pane active" id="home" role="tabpanel">
+                                                                        <div class="table-responsive">
+                                                                            <table class="table table-bordered mb-0">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <p class="mb-1">24 Agosto 2020</p>
+                                                                                            <p class="mb-1">Trasferencia</p>
+                                                                                            <p class="mb-1">Ref:102-0</p>
+                                                                                        </td>
+                                                                                        <td style="width: 20%;">$100.000</td>
+                                                                                        <td style="width: 20%;"></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tab-pane" id="profile" role="tabpanel">
+
+                                                                            <div class="row">
+                                                                                
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label>Cliente/Proveedor</label>
+                                                                                        <input type="email" class="form-control form-control-sm">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label>R.U.T</label>
+                                                                                        <input type="password" class="form-control form-control-sm">
+                                                                                    </div>
+                                                                                </div>
+                                                                            
+                                                                                
+                                                                                <div class="col-lg-4">
+                                                                                    <div class="form-group">
+                                                                                        <label>Descripción</label>
+                                                                                        <input type="text" class="form-control form-control-sm">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                
+                                                                            <div class="form-group">
+                                                                                
+                                                                                <div class="custom-control custom-checkbox">
+                                                                                    <input type="checkbox" class="custom-control-input" id="formrow-customCheck">
+                                                                                    <label class="custom-control-label" for="formrow-customCheck">Anticipo </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div>
+                                                                                <button type="submit" class="btn btn-primary w-md">Submit</button>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                    <div class="tab-pane" id="messages" role="tabpanel">
+                                                                        <form>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group">
+                                                                                        <label>Banco</label>
+                                                                                        <select class="form-control form-control-sm">
+                                                                                            <option selected="">Seleccionar</option>
+                                                                                            <option>Banco Santander</option>
+                                                                                            <option>Banco de Chile</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                                
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group">
+                                                                                        <label>Referencia</label>
+                                                                                        <input type="text" class="form-control form-control-sm">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                    <div class="tab-pane" id="settings" role="tabpanel">
+                                                                        <form>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-12">
+                                                                                    <div class="form-group">
+                                                                                        <textarea name="comentario" rows="3" placeholder="Consultar..." class="form-control form-control-sm"></textarea>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <a href="reglas-nueva.html" class="btn btn-link float-right pr-0 pb-1 mt-2">
+                                                                    <i class="fas fa-plus"></i>
+                                                                    Crear regla
+                                                                </a>
+                                                                <div class="table-responsive">
+                                                                    <table class="table table-bordered mb-0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    <p class="mb-1">23 Agosto 2020</p>
+                                                                                    <p class="mb-1">Trasferencia Banco Santander</p>
+                                                                                    <p class="mb-1">Ref: CM855020</p>
+                                                                                </td>
+                                                                                <td style="width: 20%;">$100.000</td>
+                                                                                <td style="width: 20%;"></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-1 text-center mt-5">
+                                                                <a class="btn btn-primary waves-effect waves-light" href="ui-buttons.html#" role="button">ACEPTAR</a>
+                                                            </div>
+                                                            <div class="col">
+                                                                
+                                                                <ul class="nav nav-tabs" role="tablist">
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link active" data-toggle="tab" href="#home" role="tab">
+                                                                            <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
+                                                                            <span class="d-none d-sm-block">Match</span>    
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" data-toggle="tab" href="#profile" role="tab">
+                                                                            <span class="d-block d-sm-none"><i class="far fa-user"></i></span>
+                                                                            <span class="d-none d-sm-block">Crear</span>    
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" data-toggle="tab" href="#messages" role="tab">
+                                                                            <span class="d-block d-sm-none"><i class="far fa-envelope"></i></span>
+                                                                            <span class="d-none d-sm-block">Transferir</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
+                                                                            <span class="d-block d-sm-none"><i class="fas fa-cog"></i></span>
+                                                                            <span class="d-none d-sm-block">Comentar</span>    
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                
+                                                                <div class="tab-content p-0 pt-1 text-muted">
+                                                                    <div class="tab-pane active" id="home" role="tabpanel">
+                                                                        <div class="table-responsive">
+                                                                            <table class="table table-bordered mb-0">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <p class="mb-1">24 Agosto 2020</p>
+                                                                                            <p class="mb-1">Trasferencia</p>
+                                                                                            <p class="mb-1">Ref:102-0</p>
+                                                                                        </td>
+                                                                                        <td style="width: 20%;">$100.000</td>
+                                                                                        <td style="width: 20%;"></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tab-pane" id="profile" role="tabpanel">
+
+                                                                            <div class="row">
+                                                                                
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label>Cliente/Proveedor</label>
+                                                                                        <input type="email" class="form-control form-control-sm">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label>R.U.T</label>
+                                                                                        <input type="password" class="form-control form-control-sm">
+                                                                                    </div>
+                                                                                </div>
+                                                                            
+                                                                                
+                                                                                <div class="col-lg-4">
+                                                                                    <div class="form-group">
+                                                                                        <label>Descripción</label>
+                                                                                        <input type="text" class="form-control form-control-sm">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                
+                                                                            <div class="form-group">
+                                                                                
+                                                                                <div class="custom-control custom-checkbox">
+                                                                                    <input type="checkbox" class="custom-control-input" id="formrow-customCheck">
+                                                                                    <label class="custom-control-label" for="formrow-customCheck">Anticipo </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div>
+                                                                                <button type="submit" class="btn btn-primary w-md">Submit</button>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                    <div class="tab-pane" id="messages" role="tabpanel">
+                                                                        <form>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group">
+                                                                                        <label>Banco</label>
+                                                                                        <select class="form-control form-control-sm">
+                                                                                            <option selected="">Seleccionar</option>
+                                                                                            <option>Banco Santander</option>
+                                                                                            <option>Banco de Chile</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                                
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group">
+                                                                                        <label>Referencia</label>
+                                                                                        <input type="text" class="form-control form-control-sm">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                    <div class="tab-pane" id="settings" role="tabpanel">
+                                                                        <form>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-12">
+                                                                                    <div class="form-group">
+                                                                                        <textarea name="comentario" rows="3" placeholder="Consultar..." class="form-control form-control-sm"></textarea>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <a href="reglas-nueva.html" class="btn btn-link float-right pr-0 pb-1 mt-2">
+                                                                    <i class="fas fa-plus"></i>
+                                                                    Crear regla
+                                                                </a>
+                                                                <div class="table-responsive">
+                                                                    <table class="table table-bordered mb-0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    <p class="mb-1">23 Agosto 2020</p>
+                                                                                    <p class="mb-1">Trasferencia Banco Santander</p>
+                                                                                    <p class="mb-1">Ref: CM855020</p>
+                                                                                </td>
+                                                                                <td style="width: 20%;">$100.000</td>
+                                                                                <td style="width: 20%;"></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-1 text-center mt-5">
+                                                                <a class="btn btn-primary waves-effect waves-light" href="ui-buttons.html#" role="button">ACEPTAR</a>
+                                                            </div>
+                                                            <div class="col">
+                                                                
+                                                                <ul class="nav nav-tabs" role="tablist">
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link active" data-toggle="tab" href="#home" role="tab">
+                                                                            <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
+                                                                            <span class="d-none d-sm-block">Match</span>    
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" data-toggle="tab" href="#profile" role="tab">
+                                                                            <span class="d-block d-sm-none"><i class="far fa-user"></i></span>
+                                                                            <span class="d-none d-sm-block">Crear</span>    
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" data-toggle="tab" href="#messages" role="tab">
+                                                                            <span class="d-block d-sm-none"><i class="far fa-envelope"></i></span>
+                                                                            <span class="d-none d-sm-block">Transferir</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
+                                                                            <span class="d-block d-sm-none"><i class="fas fa-cog"></i></span>
+                                                                            <span class="d-none d-sm-block">Comentar</span>    
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                
+                                                                <div class="tab-content p-0 pt-1 text-muted">
+                                                                    <div class="tab-pane active" id="home" role="tabpanel">
+                                                                        <div class="table-responsive">
+                                                                            <table class="table table-bordered mb-0">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <p class="mb-1">24 Agosto 2020</p>
+                                                                                            <p class="mb-1">Trasferencia</p>
+                                                                                            <p class="mb-1">Ref:102-0</p>
+                                                                                        </td>
+                                                                                        <td style="width: 20%;">$100.000</td>
+                                                                                        <td style="width: 20%;"></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tab-pane" id="profile" role="tabpanel">
+
+                                                                            <div class="row">
+                                                                                
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label>Cliente/Proveedor</label>
+                                                                                        <input type="email" class="form-control form-control-sm">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label>R.U.T</label>
+                                                                                        <input type="password" class="form-control form-control-sm">
+                                                                                    </div>
+                                                                                </div>
+                                                                            
+                                                                                
+                                                                                <div class="col-lg-4">
+                                                                                    <div class="form-group">
+                                                                                        <label>Descripción</label>
+                                                                                        <input type="text" class="form-control form-control-sm">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                
+                                                                            <div class="form-group">
+                                                                                
+                                                                                <div class="custom-control custom-checkbox">
+                                                                                    <input type="checkbox" class="custom-control-input" id="formrow-customCheck">
+                                                                                    <label class="custom-control-label" for="formrow-customCheck">Anticipo </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div>
+                                                                                <button type="submit" class="btn btn-primary w-md">Submit</button>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                    <div class="tab-pane" id="messages" role="tabpanel">
+                                                                        <form>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group">
+                                                                                        <label>Banco</label>
+                                                                                        <select class="form-control form-control-sm">
+                                                                                            <option selected="">Seleccionar</option>
+                                                                                            <option>Banco Santander</option>
+                                                                                            <option>Banco de Chile</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                                
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group">
+                                                                                        <label>Referencia</label>
+                                                                                        <input type="text" class="form-control form-control-sm">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                    <div class="tab-pane" id="settings" role="tabpanel">
+                                                                        <form>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-12">
+                                                                                    <div class="form-group">
+                                                                                        <textarea name="comentario" rows="3" placeholder="Consultar..." class="form-control form-control-sm"></textarea>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <a href="reglas-nueva.html" class="btn btn-link float-right pr-0 pb-1 mt-2">
+                                                                    <i class="fas fa-plus"></i>
+                                                                    Crear regla
+                                                                </a>
+                                                                <div class="table-responsive">
+                                                                    <table class="table table-bordered mb-0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    <p class="mb-1">23 Agosto 2020</p>
+                                                                                    <p class="mb-1">Trasferencia Banco Santander</p>
+                                                                                    <p class="mb-1">Ref: CM855020</p>
+                                                                                </td>
+                                                                                <td style="width: 20%;">$100.000</td>
+                                                                                <td style="width: 20%;"></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-1 text-center mt-5">
+                                                                <a class="btn btn-primary waves-effect waves-light" href="ui-buttons.html#" role="button">ACEPTAR</a>
+                                                            </div>
+                                                            <div class="col">
+                                                                
+                                                                <ul class="nav nav-tabs" role="tablist">
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link active" data-toggle="tab" href="#home" role="tab">
+                                                                            <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
+                                                                            <span class="d-none d-sm-block">Match</span>    
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" data-toggle="tab" href="#profile" role="tab">
+                                                                            <span class="d-block d-sm-none"><i class="far fa-user"></i></span>
+                                                                            <span class="d-none d-sm-block">Crear</span>    
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" data-toggle="tab" href="#messages" role="tab">
+                                                                            <span class="d-block d-sm-none"><i class="far fa-envelope"></i></span>
+                                                                            <span class="d-none d-sm-block">Transferir</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
+                                                                            <span class="d-block d-sm-none"><i class="fas fa-cog"></i></span>
+                                                                            <span class="d-none d-sm-block">Comentar</span>    
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                
+                                                                <div class="tab-content p-0 pt-1 text-muted">
+                                                                    <div class="tab-pane active" id="home" role="tabpanel">
+                                                                        <div class="table-responsive">
+                                                                            <table class="table table-bordered mb-0">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <p class="mb-1">24 Agosto 2020</p>
+                                                                                            <p class="mb-1">Trasferencia</p>
+                                                                                            <p class="mb-1">Ref:102-0</p>
+                                                                                        </td>
+                                                                                        <td style="width: 20%;">$100.000</td>
+                                                                                        <td style="width: 20%;"></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tab-pane" id="profile" role="tabpanel">
+
+                                                                            <div class="row">
+                                                                                
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label>Cliente/Proveedor</label>
+                                                                                        <input type="email" class="form-control form-control-sm">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group">
+                                                                                        <label>R.U.T</label>
+                                                                                        <input type="password" class="form-control form-control-sm">
+                                                                                    </div>
+                                                                                </div>
+                                                                            
+                                                                                
+                                                                                <div class="col-lg-4">
+                                                                                    <div class="form-group">
+                                                                                        <label>Descripción</label>
+                                                                                        <input type="text" class="form-control form-control-sm">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                
+                                                                            <div class="form-group">
+                                                                                
+                                                                                <div class="custom-control custom-checkbox">
+                                                                                    <input type="checkbox" class="custom-control-input" id="formrow-customCheck">
+                                                                                    <label class="custom-control-label" for="formrow-customCheck">Anticipo </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div>
+                                                                                <button type="submit" class="btn btn-primary w-md">Submit</button>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                    <div class="tab-pane" id="messages" role="tabpanel">
+                                                                        <form>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group">
+                                                                                        <label>Banco</label>
+                                                                                        <select class="form-control form-control-sm">
+                                                                                            <option selected="">Seleccionar</option>
+                                                                                            <option>Banco Santander</option>
+                                                                                            <option>Banco de Chile</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                                
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group">
+                                                                                        <label>Referencia</label>
+                                                                                        <input type="text" class="form-control form-control-sm">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                    <div class="tab-pane" id="settings" role="tabpanel">
+                                                                        <form>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-12">
+                                                                                    <div class="form-group">
+                                                                                        <textarea name="comentario" rows="3" placeholder="Consultar..." class="form-control form-control-sm"></textarea>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                
-                                            
-                
-                                            
-                                        </div>    
-
-
-
-
-
-                                        
+                                        </div>
                                     </div>
                                     <div class="tab-pane" id="transacciones" role="tabpanel">
                                         <div class="row">
@@ -610,7 +1165,188 @@
                                         </div>
                                     </div>
                                     <div class="tab-pane" id="reglas" role="tabpanel">
-                                        reglas
+                                        <div class="row">
+                                            <div class="col-xl-12">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <form>
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <p><strong>1. Cuando el dinero gastado en el extracto bancario coincida las siguientes condiciones</strong></p>
+                                                                    <table class="table table-bordered">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td class="form-group">
+                                                                                    <select class="form-control form-control-sm">
+                                                                                        <option>Seleccionar</option>
+                                                                                        <option selected>Beneficiario</option>
+                                                                                    </select>
+                                                                                </td>
+                                                                                <td class="form-group">
+                                                                                    <select class="form-control form-control-sm">
+                                                                                        <option>Seleccionar</option>
+                                                                                        <option selected>Igual</option>
+                                                                                        <option>Contiene</option>
+                                                                                        <option>Empezar con</option>
+                                                                                    </select>
+                                                                                </td>
+                                                                                <td class="form-group">
+                                                                                    <input class="form-control form-control-sm" value="persona prueba" type='text' name='' id=''/>
+                                                                                </td>
+                                                                                <td class="text-center">
+                                                                                    <a class="btn btn-primary btn-sm" ><i class="fas fa-trash"></i></a>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="form-group">
+                                                                                    <select class="form-control form-control-sm">
+                                                                                        <option>Seleccionar</option>
+                                                                                        <option selected>Descripción</option>
+                                                                                    </select>
+                                                                                </td>
+                                                                                <td class="form-group">
+                                                                                    <select class="form-control form-control-sm">
+                                                                                        <option>Seleccionar</option>
+                                                                                        <option selected>Igual</option>
+                                                                                        <option>Contiene</option>
+                                                                                        <option>Empezar con</option>
+                                                                                    </select>
+                                                                                </td>
+                                                                                <td class="form-group">
+                                                                                    <input class="form-control form-control-sm" value="descripción" type='text' name='' id=''/>
+                                                                                </td>
+                                                                                <td class="text-center">
+                                                                                    <a class="btn btn-primary btn-sm" ><i class="fas fa-trash"></i></a>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                    <button class="btn btn-sm btn-primary" type="button"><i class="fas fa-plus"></i> Agregar condición</button>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <p><strong> 2. Establecer el contacto</strong></p>
+                                                                </div>
+                                                                <div class="col-2">
+                                                                    <p>El contacto será: </p>
+                                                                </div>
+                                                                <div class="form-group col-4">
+                                                                    <select class="form-control form-control-sm">
+                                                                        <option>Seleccionar</option>
+                                                                        <option selected>Un contacto nuevo o existente</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="form-group col-4">
+                                                                    <input class="form-control form-control-sm" type='text' name='' id=''/>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <p><strong> 3. Asignar automáticamente artículos de línea de valor fijo</strong></p>
+                                                                </div>
+                                                                <div class="col-3">
+                                                                    <button class="btn btn-sm btn-primary" type="button"><i class="fas fa-plus"></i> Nueva linea</button>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <p><strong>4. Con el resto, asigne elementos en las siguientes proporciones:</strong></p>
+                                                                    <table class="table table-striped table-bordered">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th>Descripción</th>
+                                                                                <th>Cuenta</th>
+                                                                                <th>Tasa de impuesto</th>
+                                                                                <th>Region</th>
+                                                                                <th>Porcentaje</th>
+                                                                                <th></th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td class="form-group">
+                                                                                    <input class="form-control form-control-sm" type='text' name='' id=''/>
+                                                                                </td>
+                                                                                <td class="form-group">
+                                                                                    <input class="form-control form-control-sm" type='text' name='' id=''/>
+                                                                                </td>
+                                                                                <td class="form-group">
+                                                                                    <input class="form-control form-control-sm" type='text' name='' id=''/>
+                                                                                </td>
+                                                                                <td class="form-group">
+                                                                                    <input class="form-control form-control-sm" type='text' name='' id=''/>
+                                                                                </td>
+                                                                                <td class="form-group">
+                                                                                    <input class="form-control form-control-sm text-right" value="100,00%" type='text' name='' id=''/>
+                                                                                </td>
+                                                                                <td class="text-center">
+                                                                                    <a class="btn btn-primary btn-sm" ><i class="fas fa-trash"></i></a>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                        <tfoot>
+                                                                            <tr>
+                                                                                <td class="text-right" colspan="4"><strong>TOTAL</strong></td>
+                                                                                <td class="text-right" >100,00%</td>
+                                                                                <td></td>
+                                                                            </tr>
+                                                                        </tfoot>
+                                                                    </table>
+                                                                    <button class="btn btn-sm btn-primary" type="button"><i class="fas fa-plus"></i> Nueva linea</button>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <p><strong> 5. Establecer la referencia:</strong></p>
+                                                                </div>
+                                                                <div class="col-3">
+                                                                    <p>Se establecerá la referencia: </p>
+                                                                </div>
+                                                                <div class="form-group col-4">
+                                                                    <select class="form-control form-control-sm">
+                                                                        <option>Seleccionar</option>
+                                                                        <option selected> Por mí durante la grabación bancaria</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <p><strong> 6. Apuntar a una cuenta bancaria:</strong></p>
+                                                                </div>
+                                                                <div class="col-3">
+                                                                    <p>Ejecutar esta regla en: </p>
+                                                                </div>
+                                                                <div class="form-group col-4">
+                                                                    <select class="form-control form-control-sm">
+                                                                        <option>Seleccionar</option>
+                                                                        <option selected>Cuenta bancaria comercial</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <p><strong> 7. Dale un título a las reglas:</strong></p>
+                                                                </div>
+                                                                <div class="form-group col-4">
+                                                                    <input class="form-control form-control-sm" value="Titulo de la regla" type='text' name='' id=''/>
+                                                                </div>
+                                                            </div>
+                                                            <div class ="float-right">
+                                                                <button class="btn btn-sm btn-primary" type="button">Guardar</button>
+                                                                <button class="btn btn-sm btn-light p-l-20 p-r-20 ml-2" type="button">Cancelar</button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>   
                                     </div>
                                 </div>
                             </div>
